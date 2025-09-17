@@ -1,0 +1,48 @@
+.appbar>div>a:not(.st-metric):hover,
+#st-appbar-metrics > .st-metric:hover,
+.main-menu li a:hover,
+.main-menu > li.active > a,
+.main-menu > li.active > a:hover {
+    background-color: #5865f2;
+    border-radius: 8px;
+    transition: transform .15s ease-out, background-color .15s ease-out, color .15s ease-out;
+}
+
+:root {
+    --st-appbar-background: #2c2d32;
+    --st-side-background: #2c2d32;
+    --mg-logo-expanded: url("https://i.imgur.com/vmVOZY2.png");
+    --mg-logo-collapsed: url("https://pnghq.com/wp-content/uploads/discord-logo-white-png-download-free-png-images-59171-768x546.png");
+}
+
+.appbar-host {
+    background-color: var(--st-appbar-background);
+    border-right: 1px solid #393a3f;
+}
+
+
+.appbar>div>a:not(.st-metric),
+.main-menu li a {
+    background-color: #3b3b3b;
+    border-radius: var(--st-border-radius);
+}
+
+.appbar > div > a i,
+.appbar-icon {
+  color: #3ba55d;
+}
+
+.collapsed-menu .popup-menu h3,
+.collapsed-menu #faux-label,
+.appbar .menu-button > a:hover > span,
+.collapsed-menu .popup-menu ul li a:hover,
+.appbar .popup-menu h3,
+.card .content .content-title {
+  background-color: #2c2d32;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
